@@ -156,9 +156,10 @@ nav { display: none;}
 
     .intro__img {
         grid-area: img;
-        min-width: 250px;
+        min-width: 500px;
         position: relative;
-        z-index: 2;
+        z-index: 10;
+        margin: 0%;
 
     }
 
@@ -216,3 +217,18 @@ nav { display: none;}
     } */
 }
 
+/* Contacts*/
+
+.contact-list__item, .social-list__item, .card-body {
+    position: relative;
+    text-align: center;
+    color: darkred;
+    font-size: 2rem;
+    border-block: 10%;
+    
+
+}
+
+.Email__button{
+    
+}
